@@ -1,5 +1,5 @@
 /**
- *  
+ *
  */
 
 function ready(fn) {
@@ -36,7 +36,10 @@ ready(function(){
         return lesson;
     }
 
-    const currentLesson = showLesson(location.hash)
+    //
+    var lesson = location.hash ? location.hash : "#one";
+    var currentLesson = showLesson(lesson)
+
     window.addEventListener("hashchange", function(){
         currentLesson = showLesson(location.hash);
     });
