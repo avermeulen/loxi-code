@@ -1,0 +1,43 @@
+body {
+    margin : 1em;
+}
+
+#run {
+    margin-top : 1em;
+    width: 10em;
+    height: 2.5em;
+}
+
+#menu {
+    width : 20%;
+    height: 100%;
+    float: left;
+    background-color: seashell;
+    padding : 0.5em;
+}
+
+#codeSection {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 1em;
+
+}
+
+.error {
+    color : crimson;
+}
+
+.success {
+    color : lime;
+}
+
+#results {
+    height: 100%;
+}
+
+.section{
+    padding : 0.5em;
+    height: 10em;
+    background-color: black;
+}
