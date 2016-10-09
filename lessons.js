@@ -1,5 +1,5 @@
 var lesson1 = {
-    instructions : "# Instructions \n Write a `function` called `greet` that takes your neighbour’s name as a parameter and prints a greeting to them.",
+    instructions : "# Greet your neighbour \n Write a `function` called `greet` that takes your neighbour’s name as a parameter and prints a greeting to them.",
     functionName : 'greet',
     params : [
         {
@@ -31,7 +31,7 @@ var lesson2 = {
 };
 
 var lesson3 = {
-    instructions : "Write a function called `isTuesday` that returns `true` if the string passed into it is `'Tuesday'` otherwise it returns `false`.",
+    instructions : "# Is it Tuesday? \n Write a function called `isTuesday` that returns `true` if the string passed into it is `'Tuesday'` otherwise it returns `false`.",
     functionName : 'isTuesday',
     expectedUsages : ["split"],
     params : [

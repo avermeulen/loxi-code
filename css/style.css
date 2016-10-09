@@ -2,6 +2,18 @@ body {
     margin : 1em;
 }
 
+#top-menu li a{
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+#top-menu li {
+    list-style: none;
+    display: inline
+}
+
+
+
 #run {
     margin-top : 1em;
     width: 10em;
